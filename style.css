@@ -27,7 +27,7 @@ nav {
 	height: 50px;
 	background-color: pink;
 	text-align: center;
-	/*border-bottom: 3px solid #fafafa*/
+	border-bottom: 3px solid #fafafa;
 	font-size: 16px;
 	color: #fafafa;
 	/*color: #5e5e5e;*/
@@ -95,15 +95,28 @@ nav li {
 }
 
 .about-service {
+	padding-top: 30px;
 	text-align: center;
 	height: 300px;
-	background-color: blue;
+	/*background-color: blue;*/
+	border-bottom: 1px solid #afafaf;
+	border-top:  1px solid #afafaf;
 }
 .about-stars {
-	background-color: red;
+	padding-top: 30px;
+	/*background-color: lightgreen;*/
+	text-align: center;
+	height: 300px;
+	border-bottom: 1px solid #afafaf;
+		border-top:  1px solid #afafaf;
 }
 .about-quality {
-	background-color: orange;
+	padding-top: 30px;
+	/*background-color: orange;*/
+	text-align: center;
+	height: 300px;
+	border-bottom: 1px solid #afafaf;
+	border-top:  1px solid #afafaf;
 }
 
 
