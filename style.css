@@ -1,6 +1,10 @@
 body {
 	margin: 0;
 	padding: 0;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'La Belle Aurore', cursive;
+	/*font-family: 'Indie Flower', cursive;*/
+	/*font-family: 'Amatic SC', cursive;*/
 }
 
 .container {
@@ -14,6 +18,7 @@ nav {
 	height: 50px;
 	background-color: pink;
 	text-align: center;
+	/*border-bottom: 3px solid #fafafa*/
 }
 nav ul {
 	/*text-align: center;*/
@@ -31,6 +36,12 @@ nav li {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   	font-family: 'Amatic SC', cursive;
+   	font-size: 100px;
+   	/*text-align: center;*/
+   	color: #fafafa;
+   	padding: 5vh;
+    text-shadow: 2px 2px 10px #000000;
 }
 
 .header-bottom {
@@ -46,9 +57,13 @@ nav li {
 	/*margin-bottom: 100px;*/
 	height: 85px;
 	width: 85px;
-	background-color: orange;
+	background-color: pink;
+	border: 2px solid #fafafa;
 	padding: 20px;
 	border-radius: 100%;
+	box-shadow: 0px 2px 15px #000000;
+	font-family: 'La Belle Aurore', cursive;
+	font-size: 16px;
 }
 
 .about-page div {
