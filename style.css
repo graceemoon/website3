@@ -7,9 +7,26 @@ body {
 	margin: 40px;
 }
 
+nav {
+	display: block;
+	z-index: 10;
+	position: absolute;
+	height: 50px;
+	background-color: pink;
+	text-align: center;
+}
+nav ul {
+	/*text-align: center;*/
+	padding: 10px;
+}
+nav li {
+	display: inline-block;
+	padding: 0px 30px;
+}
+
 .home-page {
 	background-image: url('./img/sweet1.jpeg');
-	height: 90vh;
+	height: 85vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,5 +102,19 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.map {
+	height: 300px;
+	width: 300px;
+/*	padding: 10px;
+	margin: 10px;*/
+	background-color: black;
+}
+
+footer {
+	padding: 5px;
+	text-align: center;
+}
+
 
 
