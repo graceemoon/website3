@@ -1,0 +1,21 @@
+/*body, html {
+	margin: 0;
+	padding: 0;
+}*/
+
+.container {
+	margin: 40px;
+}
+
+.home-page {
+	background-image: url('./img/sweet1.jpeg');
+	height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-page div {
+	text-align: center;
+}
