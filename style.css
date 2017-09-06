@@ -10,6 +10,7 @@ body {
 .container {
 	margin: 40px;
 	font-family: 'La Belle Aurore', cursive;
+	font-size: 16px;
 }
 
 .titleh { /*WHY IS THIS NOT WORKING?*/
@@ -27,20 +28,20 @@ nav {
 	background-color: pink;
 	text-align: center;
 	/*border-bottom: 3px solid #fafafa*/
-	font-size: 20px;
-	/*color: #fafafa;*/
-	color: #5e5e5e;
-	text-shadow: -1px 0 #fafafa,0 1px #fafafa,1px 0 #fafafa,0 -1px #fafafa;
-
+	font-size: 16px;
+	color: #fafafa;
+	/*color: #5e5e5e;*/
+	/*text-shadow: -1px 0 #fafafa,0 1px #fafafa,1px 0 #fafafa,0 -1px #fafafa;*/
+	text-shadow: -1px 0 #aeaeae,0 1px #aeaeae/*,1px 0 #aeaeae,0 -1px #aeaeae*/;
 	letter-spacing: 3px;
 }
 nav ul {
 	/*text-align: center;*/
-	padding: 10px;
+	padding-top: 10px;
 }
 nav li {
 	display: inline-block;
-	padding: 0px 30px;
+	padding: 7px 50px 0 50px;
 }
 
 .home-page {
@@ -92,6 +93,19 @@ nav li {
 	padding: 80px;
 	font-size: 16px;
 }
+
+.about-service {
+	text-align: center;
+	height: 300px;
+	background-color: blue;
+}
+.about-stars {
+	background-color: red;
+}
+.about-quality {
+	background-color: orange;
+}
+
 
 
 .fix2 {
