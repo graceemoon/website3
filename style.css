@@ -12,9 +12,11 @@ body {
 	font-family: 'La Belle Aurore', cursive;
 }
 
-h2 {
+.titleh { /*WHY IS THIS NOT WORKING?*/
    	font-family: 'Amatic SC', cursive;
-   	font-size: 100px;
+   		/*font-family: 'Open Sans', sans-serif;*/
+
+   	font-size: 70px;
 
 }
 
@@ -26,8 +28,11 @@ nav {
 	background-color: pink;
 	text-align: center;
 	/*border-bottom: 3px solid #fafafa*/
-	font-size: 18px;
+	font-size: 20px;
 	/*color: #fafafa;*/
+	color: #5e5e5e;
+	text-shadow: -1px 0 #fafafa,0 1px #fafafa,1px 0 #fafafa,0 -1px #fafafa;
+
 	letter-spacing: 3px;
 }
 nav ul {
