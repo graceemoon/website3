@@ -148,17 +148,10 @@ nav li {
 }
 .menu-imgs {
 	/*padding: 20px;*/
-	background-color: black;
+	background-color: #ffffff;
+	height: 250px;
 }
-/*.menu-img1 {
-	background-image: url('./img/sweet7.jpg');
-}
-.menu-img2 {
-	background-image: url('./img/sweet9.jpg');
-}
-.menu-img3 {
-	background-image: url('./img/sweet6.jpg');
-}*/
+
 
 .fix3 {
 	background-image: url('./img/sweet8.jpg');
@@ -170,8 +163,8 @@ nav li {
 }
 
 .map {
-	height: 300px;
-	width: 300px;
+	height: 350px;
+	/*width: 300px;*/
 /*	padding: 10px;
 	margin: 10px;*/
 	background-image: url('./img/map.jpeg');
