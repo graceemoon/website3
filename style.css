@@ -9,6 +9,13 @@ body {
 
 .container {
 	margin: 40px;
+	font-family: 'La Belle Aurore', cursive;
+}
+
+h2 {
+   	font-family: 'Amatic SC', cursive;
+   	font-size: 100px;
+
 }
 
 nav {
@@ -19,6 +26,9 @@ nav {
 	background-color: pink;
 	text-align: center;
 	/*border-bottom: 3px solid #fafafa*/
+	font-size: 18px;
+	/*color: #fafafa;*/
+	letter-spacing: 3px;
 }
 nav ul {
 	/*text-align: center;*/
@@ -62,18 +72,20 @@ nav li {
 	padding: 20px;
 	border-radius: 100%;
 	box-shadow: 0px 2px 15px #000000;
-	font-family: 'La Belle Aurore', cursive;
+	/*font-family: 'La Belle Aurore', cursive;*/
 	font-size: 16px;
 }
 
 .about-page div {
 	text-align: center;
+	height: 100px;
+	padding: 10px;
 }
 /*.about-par {
 	padding: 100px;
 }*/
 .about-page p {
-	padding: 100px;
+	padding: 80px;
 	font-size: 16px;
 }
 
