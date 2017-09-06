@@ -108,7 +108,11 @@ nav li {
 	width: 300px;
 /*	padding: 10px;
 	margin: 10px;*/
+	background-image: url('./img/map.jpeg');
 	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 footer {
