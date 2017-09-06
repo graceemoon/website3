@@ -15,7 +15,6 @@ body {
 .titleh { /*WHY IS THIS NOT WORKING?*/
    	font-family: 'Amatic SC', cursive;
    		/*font-family: 'Open Sans', sans-serif;*/
-
    	font-size: 70px;
 
 }
@@ -108,9 +107,17 @@ nav li {
 	padding-top: 20px;
 
 }
+
+.menu-page li:hover:before {
+    color: pink;
+    font-size: 12px;
+    content: "★ ";
+}
+
 .menu-page ul {
 	padding: 30px;
-	background-color: blue;
+	list-style-type: none;
+	/*background-color: blue;*/
 }
 .menu-imgs {
 	/*padding: 20px;*/
