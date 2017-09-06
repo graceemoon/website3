@@ -15,9 +15,8 @@ body {
 
 .titleh { /*WHY IS THIS NOT WORKING?*/
    	font-family: 'Amatic SC', cursive;
-   		/*font-family: 'Open Sans', sans-serif;*/
    	font-size: 70px;
-
+	color: #aaa;
 }
 
 nav {
@@ -25,14 +24,15 @@ nav {
 	z-index: 10;
 	position: absolute;
 	height: 50px;
-	background-color: pink;
+	/*background-color: pink;*/
+	background-color: #ffffff;
 	text-align: center;
 	border-bottom: 3px solid #fafafa;
 	font-size: 16px;
-	color: #fafafa;
-	/*color: #5e5e5e;*/
+	/*color: #fafafa;*/
+	color: #aaa;
 	/*text-shadow: -1px 0 #fafafa,0 1px #fafafa,1px 0 #fafafa,0 -1px #fafafa;*/
-	text-shadow: -1px 0 #aeaeae,0 1px #aeaeae/*,1px 0 #aeaeae,0 -1px #aeaeae*/;
+	/*text-shadow: -1px 0 #aeaeae,0 1px #aeaeae;*/
 	letter-spacing: 3px;
 }
 nav ul {
@@ -65,6 +65,8 @@ nav li {
 
 .spanbutt {
 	text-align: center;
+	color: #3e3e3e;
+	letter-spacing: 1px;
 }
 .down-button {
 	display: inline-block;
@@ -86,9 +88,8 @@ nav li {
 	height: 100px;
 	padding: 10px;
 }
-/*.about-par {
-	padding: 100px;
-}*/
+
+
 .about-page p {
 	padding: 80px;
 	font-size: 16px;
@@ -99,24 +100,27 @@ nav li {
 	text-align: center;
 	height: 300px;
 	/*background-color: blue;*/
-	border-bottom: 1px solid #afafaf;
-	border-top:  1px solid #afafaf;
+	border-bottom: 1px solid #aaa;
+	/*border-top:  1px solid #afafaf;*/
+	color: #3e3e3e;
 }
 .about-stars {
 	padding-top: 30px;
 	/*background-color: lightgreen;*/
 	text-align: center;
 	height: 300px;
-	border-bottom: 1px solid #afafaf;
-		border-top:  1px solid #afafaf;
+	border-bottom: 1px solid #aaa;
+	/*border-top:  1px solid #afafaf;*/
+	color: #3e3e3e;
 }
 .about-quality {
 	padding-top: 30px;
 	/*background-color: orange;*/
 	text-align: center;
 	height: 300px;
-	border-bottom: 1px solid #afafaf;
-	border-top:  1px solid #afafaf;
+	border-bottom: 1px solid #aaa;
+	/*border-top:  1px solid #afafaf;*/
+	color: #3e3e3e;
 }
 
 
@@ -132,7 +136,11 @@ nav li {
 
 .menu-page {
 	padding-top: 20px;
-
+	/*color: #aaa;*/
+	color: #3e3e3e;
+}
+.menu-page li:hover {
+	color: #aaa;
 }
 
 .menu-page li:hover:before {
